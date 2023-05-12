@@ -18,6 +18,7 @@ public class AuthTest {
     void setUp() {
         open("http://localhost:9999");
     }
+
     @Test
     void shouldLoginRegisteredActiveUser() {
         var registeredUser = getRegisteredUser("active");
